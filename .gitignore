@@ -1,0 +1,45 @@
+### higher .idea folder ###
+.idea
+
+HELP.md
+hschmidt_stud_numalg/target/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> testcicd
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+numerische-algorithmen/.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### Windows ###
+Thumbs.db
+
+### MacOS ###
+.DS_Store
+
+### VS Code ###
+.vscode/
