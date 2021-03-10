@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="start" alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/14" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Algorithmen verstehen" textFill="#191ccb">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Label prefHeight="53.0" prefWidth="418.0" text="Diese Applikation soll das Erlernen und Verstehen von Algorithmen unterstützen. Bitte wählen Sie den Algorithmus aus, den Sie sich ansehen möchten." wrapText="true">
+         <font>
+            <Font name="Arimo" size="12.0" />
+         </font>
+      </Label>
+      <!--prozedurale Erstellung der buttons-->
+      <VBox fx:id="AlgorithmusButtons" alignment="CENTER"></VBox>
+      <Label prefHeight="35.0" prefWidth="418.0" text="HSD - SoSe2020 - IP1: Al Ali, Salar; Duhme, Pia; Eis, Dietlinde; Focken, Mareike; Liersch, Justin; Pahlitzsch, Dominik; Stepantschenko, Katharina" wrapText="true">
+         <font>
+            <Font name="Arimo" size="12.0" />
+         </font>
+      </Label>
+      <Label prefHeight="35.0" prefWidth="418.0" text="HSD - WiSe2020 - IP2: Al Ali, Salar; Eis, Dietlinde; Focken, Mareike; Liersch, Justin; Stepantschenko, Katharina" wrapText="true">
+         <font>
+            <Font name="Arimo" size="12.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

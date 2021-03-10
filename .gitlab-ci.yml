@@ -1,0 +1,33 @@
+image: maven:3.6.3-jdk-14
+
+stages:
+  - clean
+  - compile
+  - install
+  - test
+  - package
+
+clean:
+  script:
+    - "mvn clean -B"
+
+compile:
+  script:
+    - "mvn compile -B"
+
+install:
+  script:
+    - "mvn install -B"
+    
+test:
+  stage: test
+  script:
+    - "mvn test -B"
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - target/surefire-reports/TEST-*.xml
+package:
+  script:
+    - "mvn package -B"

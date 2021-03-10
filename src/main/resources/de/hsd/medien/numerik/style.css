@@ -1,0 +1,57 @@
+.root{
+ -fx-background-color: lavender;
+}
+
+#title{
+    -fx-font-size: 40px;
+    -fx-text-fill: #191ccb;
+}
+
+#intro{}
+
+TextFlow{
+    /*-fx-background-color: yellow;*/
+    -fx-alignment: center;
+    -fx-border-color: GREEN;
+    -fx-border-width: 0;
+    -fx-spacing: 10;
+    -fx-padding: 15,20,20,10;
+}
+Text{
+    -fx-font-size: 12px;
+    -fx-text-fill: magenta;
+    -fx-font-alignment: center;
+}
+
+Button{
+    -fx-alignment: center;
+    -fx-border-color: blue;
+    -fx-border-width: 0;
+    -fx-spacing: 10;
+}
+
+VBox{
+    /*-fx-background-color: yellow;*/
+    -fx-alignment: center;
+    -fx-border-color: GREEN;
+    -fx-border-width: 0;
+    -fx-spacing: 10;
+    -fx-padding: 15,20,20,10;
+}
+
+.EuklidButton{
+     /*-fx-background-color: c0ffff;*/
+ }
+
+.KnfDnfButton{
+    /*-fx-background-color: lightgray;*/
+}
+
+.GaussButton{
+    /*-fx-background-color: lightblue;*/
+}
+
+
+
+
+
