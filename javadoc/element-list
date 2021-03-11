@@ -1,0 +1,9 @@
+module:de.hsd.medien.numerik
+de.hsd.medien.numerik
+de.hsd.medien.numerik.mvc.controller
+de.hsd.medien.numerik.mvc.model.euklid
+de.hsd.medien.numerik.mvc.model.gauss
+de.hsd.medien.numerik.mvc.model.knfDnf
+de.hsd.medien.numerik.mvc.model.manager
+de.hsd.medien.numerik.mvc.view
+de.hsd.medien.numerik.mvc.view.gauss
