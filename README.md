@@ -1,4 +1,4 @@
-# hschmidt_stud_NumAlg_Abgabe
+# AppNumerik
 #README
 
 #Projektziel
